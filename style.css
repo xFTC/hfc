@@ -1,0 +1,158 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.bnav {
+	 display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #474747;
+    overflow: hidden;
+    padding: 0 8px;
+    text-align: center;
+}
+.tnav {
+	font-family: verdana, sans-serif;
+	overflow: hidden;
+	background-color: #616161;
+	text-align: center;
+
+}
+h1 {color: white;
+	 font-size: 86px;
+	 margin: 16px;}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	float: left;
+	font-size: 24px;
+		text-align: center;
+}
+
+nav li a {
+	font-family: arial, sans-serif;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	margin: 0px 85px 0px 85px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #4CAF50;
+		text-align: center;
+}
+button { background-color: #616161;
+			color: white;
+			border: none;
+			width: 150px;
+			height: 40px;
+			font-size: 18px;
+}
+button:hover {
+		background-color: #474747;
+
+}
+img {
+	width: 500px;
+	height: 500px;
+}
+.wide{
+	width: 500px;
+	height: 300px;
+}
+.narrow{
+	width: 300px;
+	height: 300px;
+}
+.product {
+  display: inline-block;
+  width: 40%;
+  margin: 0px 0px 50px 0px;
+}
+main{
+	text-align:center;
+
+}
+.subtitle{
+	font-size: 48px;
+	margin: 10px 0px 0px 0px;
+	font-family: tahoma, sans-serif;
+
+}
+footer{
+
+		background-color: #616161;
+ display: flex;
+  justify-content: center; 
+  align-items: center; 
+  			height: 100px;
+}
+footer a{
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+  	text-align: center;
+}
+footer a{
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+  	text-align: center;
+}
+footer a:hover{
+	text-decoration: underline;
+}
+p {font-family: arial, sans-serif;
+	font-weight: normal;}
+h2 {font-family: arial, sans-serif;
+	font-weight: bold;}
+textarea {  width: 80%;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #616161;
+	font-size: 1rem;}
+form{font-family: arial, sans-serif;}
+input{width: 80%;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #616161;
+	font-size: 1rem;}
+	
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-left: 25em;
+  margin-right: 25em;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+input,
+textarea {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  max-width: 100em;
+}
+
+textarea {
+  width: 100%;
+  max-width: 100em;
+  min-height: 100px;
+}
